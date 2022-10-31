@@ -98,7 +98,8 @@ Apache (v6)                ALLOW       Anywhere (v6)
 
 At this point you can check your ip address on the browser to see this: 
 
-![](/assets/38.png)
+![image](https://user-images.githubusercontent.com/105265503/198992754-d29d9b35-df7b-4f5d-ab06-bd02d2ab4b85.png)
+
 ### Installing the "M" part of the Stack
 
 Now that we've got a web server up and running, we need to install the database system to be able to store and manage data for your site. Due to our choice of stack, MySQL is the exact choice.
