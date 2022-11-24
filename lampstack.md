@@ -97,7 +97,7 @@ Apache (v6)                ALLOW       Anywhere (v6)
 
 At this point you can check your ip address on the browser to see this: 
 
-![image](https://user-images.githubusercontent.com/105265503/198992754-d29d9b35-df7b-4f5d-ab06-bd02d2ab4b85.png)
+![image](assets/3..png)
 
 ### Installing the "M" part of the Stack
 
