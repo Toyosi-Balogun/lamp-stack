@@ -168,7 +168,7 @@ Check your PHP version once the installation is complete with:
 ```
 Output
 
-PHP 7.4.3 (cli) (built: Oct  6 2020 15:47:56) ( NTS )
+PHP 7.4.3 (cli) (built: Nov  2 2022 09:53:44) ( NTS )
 Copyright (c) The PHP Group
 Zend Engine v3.4.0, Copyright (c) Zend Technologies
     with Zend OPcache v7.4.3, Copyright (c), by Zend Technologies
