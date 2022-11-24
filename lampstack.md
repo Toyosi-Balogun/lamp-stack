@@ -271,7 +271,7 @@ http://server_domain_or_IP/info.php
 ```
 You’ll see a page similar to this:
 
-![](assets/2..png)
+![](assets/4..png)
 
  >it’s best to remove the file you created as it contains sensitive information about your PHP environment -and your Ubuntu server.
 
