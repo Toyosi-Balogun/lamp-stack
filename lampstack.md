@@ -239,7 +239,7 @@ Paste in:
 
 Now go to your browser and access your server’s IP address once again:
 
-![](https://github.com/Arafly/Lamp-Darey.io/blob/master/assets/145.PNG)
+![](1.png.png)
 
 
 You can leave this file in place as a temporary landing page for your application until you set up an index.php file to replace it. Once you do that, remember to remove or rename the index.html file from your document root, as it would take precedence over an index.php file by default.
