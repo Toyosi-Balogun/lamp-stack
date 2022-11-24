@@ -60,19 +60,18 @@ Output
 
 ● apache2.service - The Apache HTTP Server
      Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
-     Active: active (running) since Mon 2021-03-15 17:10:18 WAT; 1 day 23h ago
+     Active: active (running) since Thu 2022-11-24 14:12:32 UTC; 3min 52s ago
        Docs: https://httpd.apache.org/docs/2.4/
-   Main PID: 21102 (apache2)
-      Tasks: 7 (limit: 2938)
-     Memory: 13.9M
+   Main PID: 22998 (apache2)
+      Tasks: 55 (limit: 1143)
+     Memory: 5.3M
      CGroup: /system.slice/apache2.service
-             ├─21102 /usr/sbin/apache2 -k start
-             ├─22474 /usr/sbin/apache2 -k start
-             ├─22475 /usr/sbin/apache2 -k start
-             ├─22476 /usr/sbin/apache2 -k start
-             ├─22477 /usr/sbin/apache2 -k start
-             ├─22478 /usr/sbin/apache2 -k start
-             └─22482 /usr/sbin/apache2 -k start
+             ├─22998 /usr/sbin/apache2 -k start
+             ├─23000 /usr/sbin/apache2 -k start
+             └─23001 /usr/sbin/apache2 -k start
+
+Nov 24 14:12:32 ip-172-31-86-26 systemd[1]: Starting The Apache HTTP Server...
+Nov 24 14:12:32 ip-172-31-86-26 systemd[1]: Started The Apache HTTP Server.
 
 ```
 
@@ -126,16 +125,19 @@ You can clear your screen with "CTRL + L" and exit the MySQL console, by typing:
 Output 
 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
-Your MySQL connection id is 10
-Server version: 8.0.23-0ubuntu0.20.04.1 (Ubuntu)
+Your MySQL connection id is 8
+Server version: 8.0.31-0ubuntu0.20.04.1 (Ubuntu)
 
-Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+Copyright (c) 2000, 2022, Oracle and/or its affiliates.
 
 Oracle is a registered trademark of Oracle Corporation and/or its
 affiliates. Other names may be trademarks of their respective
 owners.
 
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+Query OK, 0 rows affected (0.11 sec)
 
 mysql> exit
 Bye
